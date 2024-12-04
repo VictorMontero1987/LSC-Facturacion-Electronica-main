@@ -1,0 +1,63 @@
+{
+  "id": "4e2e9532-7e97-4f5e-af6e-1b5f2e51b9e2",
+  "name": "facturacion-electronica-ls",
+  "publisher": "Dextra",
+  "version": "21.0.0.0",
+  "brief": "Este modulo integrara la funcionalidad de la facturación electronica en Republica Dominicana para la version LS Central",
+  "description": "Facturación Electronica en Republica Dominicana",
+  "privacyStatement": "https://dextra.com.do/privacyStatement",
+  "EULA": "https://dextra.com.do/eula",
+  "help": "https://dextra.com.do/help",
+  "url": "https://dextra.com.do",
+  "logo": "business-central1.png",
+  "dependencies": [
+    {
+      "id": "4ccf94f0-8e86-437f-99fc-a4eeda4a5122",
+      "name": "Facturacion Electronica",
+      "publisher": "Dextra",
+      "version": "18.5.0.41"
+    },
+    {
+      "name": "LS Central",
+      "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+      "publisher": "LS Retail",
+      "version": "18.4.0.0"
+    },
+    {
+      "name": "LS Central System App",
+      "id": "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+      "publisher": "LS Retail",
+      "version": "18.4.0.0"
+    },
+    {
+      "id": "b18ab944-2133-4326-bcd7-a235e0a8bdef",
+      "name": "LS Central DR Localization",
+      "publisher": "Dextra",
+      "version": "18.5.0.41"
+    },
+    {
+      "id": "b269ef93-1340-452e-bc44-732c5dacd1c8",
+      "name": "Base App DR Localization",
+      "publisher": "Dextra",
+      "version": "18.5.0.41"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 36003100,
+      "to": 39003199
+    }
+  ],
+  "features": ["TranslationFile", "GenerateCaptions"],
+  "contextSensitiveHelpUrl": "https://ALProject1.com/help/",
+  "runtime": "10.0",
+  "resourceExposurePolicy": 
+  {
+    "allowDebugging": true, 
+    "allowDownloadingSource": true, 
+    "includeSourceInSymbolFile": true
+  }
+}

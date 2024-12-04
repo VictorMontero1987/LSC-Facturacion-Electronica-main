@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="facturacion-electronica-ls">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 238291637 - Method 1555662422 - NamedType 960741963" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Security Code: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 Security Code from Transaction Header</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF LS Retail Events - Method OnAfterPrintSalesSlip - NamedType SecurityCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 238291637 - Method 1555662422 - NamedType 4141854774" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stamped Date: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Stamped Date of Electronic Transaction on the Transaction header</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF LS Retail Events - Method OnAfterPrintSalesSlip - NamedType SignedDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 238291637 - Method 741503620 - NamedType 2658329247" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value 13 on table %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = EF Controls Digits, %2 = DXNCF Setup Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF LS Retail Events - Method OnBeforePostPOSTransaction - NamedType EfControlDigitsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 238291637 - Method 741503620 - NamedType 1561934139" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value on table %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No. Series, %2 = DXNCF Sales Setup Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF LS Retail Events - Method OnBeforePostPOSTransaction - NamedType NoFoundNCFErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 604202028 - NamedType 872715377" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt %1 does not have eNCF on Transaction %2 For Terminal %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Receipt No., %2 = Transacton No., %3 = Termninal No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method FillFromSalesPOSTables - NamedType NoNcfErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1652636057 - NamedType 893303436" size-unit="char" translate="yes" xml:space="preserve">
+          <source>http://www.cofidi.com.mx/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessDocumentResponse - NamedType cofnamespaceUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1652636057 - NamedType 2180186744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1%2.xml</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Doc Type, %2 ECF</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessDocumentResponse - NamedType CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1652636057 - NamedType 635531183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No GeneraCFDResponse Node was received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessDocumentResponse - NamedType GeneraCFDResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1652636057 - NamedType 926245826" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Respuesta/INVOICE Node Was received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessDocumentResponse - NamedType RespuestaINVOICEErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 3233226741 - NamedType 1443903238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Signature Value was received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessECF - NamedType SignatureValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 3606501616 - NamedType 3381485242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An Exception has occured processing Electronic Request on Invoice No. %1, Msg. %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Invoice No., %2 = Exception Message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessException - NamedType ExceptionMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 3666146451 - NamedType 1443903238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Signature Value was received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ProcessRFCE - NamedType SignatureValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 3121249377" size-unit="char" translate="yes" xml:space="preserve">
+          <source>soapenv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType soapPrefixLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 1243006454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>http://schemas.xmlsoap.org/soap/envelope/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType namespaceUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 2260970692" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cof</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType cofPrefixLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 893303436" size-unit="char" translate="yes" xml:space="preserve">
+          <source>http://www.cofidi.com.mx/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType cofnamespaceUrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 3286880394" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Http request failed with status %1 code, %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = HttpStatusCode, %2 = HttpStatusMessage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType FailRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 1036199716 - NamedType 2180186744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1%2.xml</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Doc Type, %2 ECF</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method SendXmlElectronicDocument - NamedType CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 2333335420 - NamedType 3527051107" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no Configuration for Customer %1 on Table %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Customer No., %2 = DXNCF Sales Setup Table Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ValidElectronicCustomer - NamedType NoConfigurationOnNcfSalesSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 2122268463 - NamedType 2939744004" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no VAT Setup for %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 VAT. Bus Posting Group, %2 = VAT Gen. Posting Group</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ValidRetailItemForElectronic - NamedType NoVatSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1065128746 - Method 2122268463 - NamedType 2539647305" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not configured on table %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 EF UOM Type Option, %2 = Unit of Measure Table</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LSEF Soap Document - Method ValidRetailItemForElectronic - NamedType NoUnitOfMeasureConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3839205406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LSEFQRCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LSEFQRCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3839205406 - Control 3860679511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows Barcode Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LSEFQRCode - Control EF Encoded Barcode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3839205406 - Control 3860679511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LSEFQRCode - Control EF Encoded Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3906198946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Default NC Modification Code Type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Def. NC Modification Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3906198946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Def. NC Modification Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Def. NC Modification Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3836355805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Enabled POS to show QR Code on Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Print QR Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3836355805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Print QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Print QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 2380163010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Activates Electronic Service on POS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Use Elec. Service On POS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 2380163010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>Use Electronic Service on POS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Use Elec. Service On POS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 2406508671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>POS Printing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LsEfPrinting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3558029273 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>QR Code Height to be printed on Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Barcode Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 3558029273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>QR Code Height</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Barcode Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 1925060274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>QR Code Width to be printed on Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Barcode Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4078966487 - Control 1925060274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1151820294">
+          <source>QR Code Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Administration Setup - Control LSEF Barcode Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Method 716454850 - NamedType 3641426177" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2727550081">
+          <source> %1 should have a value on %2 table for Electronic Service to work properly</source>
+          <note from="Developer" annotates="general" priority="2">%1 Field Caption for Customer Table, %2 = Table Caption for Customer Table</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Method OnOpenPage - NamedType notificationLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Method 716454850 - NamedType 2653679724" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2727550081">
+          <source>Electronic Service Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Method OnOpenPage - NamedType notificationHeaderLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Method 716454850 - NamedType 672512571" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2727550081">
+          <source> Notification %1:</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Notification Number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Method OnOpenPage - NamedType notificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Control 2369327351 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3491148509">
+          <source>County Code for DR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Control LSEF DR County Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Control 2369327351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3491148509">
+          <source>DR County Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Control LSEF DR County Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Control 3699809113 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3491148509">
+          <source>Township Code for DR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Control LSEF DR Township Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2727550081 - Control 3699809113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3491148509">
+          <source>DR Township Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF LSC Retail Customer Card - Control LSEF DR Township Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 1709094436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Series No. Contingencies - eCf</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEFAlternalNCFNoSeries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 1263580815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. CRF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 1263580815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. CRF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 3530396084 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. CF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. CF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 3530396084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. CF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. CF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 916519869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. ESP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. ESP - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 916519869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. ESP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. ESP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 1764440487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. GUB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. GUB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 1764440487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. GUB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. GUB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 3528251444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. NC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. NC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204314820 - Control 3528251444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2461107172">
+          <source>Alternal NCF Serial No. NC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF PosTerminal Card - Control LSEF Alternal NCF Serial No. NC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Method 716454850 - NamedType 3641426177" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2550848333">
+          <source> %1 should have a value on %2 table for Electronic Service to work properly</source>
+          <note from="Developer" annotates="general" priority="2">%1 Field Caption for Customer Table, %2 = Table Caption for Customer Table</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Method OnOpenPage - NamedType notificationLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Method 716454850 - NamedType 2653679724" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2550848333">
+          <source>Electronic Service Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Method OnOpenPage - NamedType notificationHeaderLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Method 716454850 - NamedType 672512571" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2550848333">
+          <source> Notification %1:</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Notification Number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Method OnOpenPage - NamedType notificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Control 2369327351 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3957278389">
+          <source>County Code for DR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Control LSEF DR County Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Control 2369327351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3957278389">
+          <source>DR County Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Control LSEF DR County Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Control 3699809113 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3957278389">
+          <source>Township Code for DR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Control LSEF DR Township Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2550848333 - Control 3699809113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3957278389">
+          <source>DR Township Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Lsef Retail Vendor Card - Control LSEF DR Township Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1402196346 - Control 2508614458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2353922318">
+          <source>LS EF Payment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Tender Type Relation - Control LSEF Payment Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1402196346 - Control 2508614458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2353922318">
+          <source>LS EF Payment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Tender Type Relation - Control LSEF Payment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1402196346 - Control 1552524388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2353922318">
+          <source>LS EF Payment Type Form</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Tender Type Relation - Control LSEF Payment Type Form - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1402196346 - Control 1552524388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2353922318">
+          <source>LS EF Payment Type Form</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Tender Type Relation - Control LSEF Payment Type Form - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 357928419 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1465716235">
+          <source>Download EF XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFDownloadXML - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 357928419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1465716235">
+          <source>Download EF XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFDownloadXML - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 357928419 - Method 1377591017 - NamedType 450782779" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2148481043">
+          <source>Invalid Transaction %1, does not have a valid Electronic NCF</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Transaction Receipt No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFDownloadXML - Method OnAction - NamedType InvalidTransLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 3468163713 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1465716235">
+          <source>QR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFQR - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 3468163713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1465716235">
+          <source>QR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFQR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2148481043 - Action 1606851035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1465716235">
+          <source>LSEFSeparator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEF Transaction Register - Action LSEFSeparator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 3300698910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Signature Barcode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEfQRcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 4241483632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Electronic Fiscal Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEFElectronicFiscalData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 2530778742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the Alternal NCF field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF Alternal NCF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 1263580815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the Alternal NCF Serial No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF Alternal NCF Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 367569001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the Has Contingencies field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF Has Contingencies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 1481911671 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the NCF Modification Reason field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF NCF Modification Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 1039654153 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the Security Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF Security Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1308408860 - Control 1625192812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2741595800">
+          <source>Specifies the value of the Stamped Date/Time field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFLSCTransactionCard - Control LSEF Stamped Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3683349672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Specifies the value of the EF Source Code Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Source Code Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3683349672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Source Code Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 1061761948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 1061761948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 1492158453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>POS Terminal No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF POS Terminal No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 1492158453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>POS Terminal No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF POS Terminal No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3452172928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Replication Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Replication Counter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3452172928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Replication Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Replication Counter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3008528728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Store No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Store No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2397890960 - Control 3008528728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2285639389">
+          <source>Store No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LSEFProcessRequestList - Control LSEF Store No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 3558029273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Receipt Barcode Height</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Barcode Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 1925060274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Receipt Barcode Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Barcode Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 3906198946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Default NC Modification Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Def. NC Modification Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 3836355805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Print QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Print QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 1103953061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Send Request From POS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Send Request From POS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4078966487 - Field 2380163010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1151820294">
+          <source>Use Electronic Service On POS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF Administration Setup - Field LSEF Use Elec. Service On POS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3329917292 - Field 1696567090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 373561200">
+          <source>LSEF Alternal NCF SerialNo CF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC POS Terminal - Field LSEF Alternal NCF SerialNo CF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3329917292 - Field 232103016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 373561200">
+          <source>LSEF Alternal NCF SerialNo CRF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC POS Terminal - Field LSEF Alternal NCF SerialNo CRF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3329917292 - Field 622348327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 373561200">
+          <source>LSEF Alternal NCF SerialNo ESP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC POS Terminal - Field LSEF Alternal NCF SerialNo ESP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3329917292 - Field 2629684957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 373561200">
+          <source>LSEF Alternal NCF SerialNo GUB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC POS Terminal - Field LSEF Alternal NCF SerialNo GUB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3329917292 - Field 351134962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 373561200">
+          <source>LSEF Alternal NCF SerialNo NC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC POS Terminal - Field LSEF Alternal NCF SerialNo NC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 746762292 - Field 1530924888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1706155000">
+          <source>Applies for ISC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Trans. Sales Entry - Field LSEF Applies for ISC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 746762292 - Field 1849643124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1706155000">
+          <source>Applies for Withholding</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Trans. Sales Entry - Field LSEF Applies for Withholding - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 746762292 - Field 1386225660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1706155000">
+          <source>Electronic Tax Indicator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Trans. Sales Entry - Field LSEF Tax Indicator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 746762292 - Field 3696312189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1706155000">
+          <source>UOM Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Trans. Sales Entry - Field LSEF UOM Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 2530778742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Alternal NCF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Alternal NCF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 1263580815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Alternal NCF Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Alternal NCF Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 1530924888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Applies for ISC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Applies for ISC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 2530479329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>e-NCF Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF e-NCF Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 2277788174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Barcode Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Encoded Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 367569001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Has Contingencies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Has Contingencies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 1481911671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>NCF Modification Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF NCF Modification Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 1039654153 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Security Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Security Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 2676948557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Signature Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Signature Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 1625192812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>Stamped Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEF Stamped Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1450919693 - Field 2425061756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1787983729">
+          <source>QR Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSC Transaction Header - Field LSEfQRImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 229117391 - Field 2508614458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2353922318">
+          <source>EF Payment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSDX Tender Type Relation - Field LSEF Payment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 229117391 - Field 1552524388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2353922318">
+          <source>EF Payment Type Form</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEF LSDX Tender Type Relation - Field LSEF Payment Type Form - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 1061761948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>LSEF Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 1492158453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>POS Terminal No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF POS Terminal No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 308576635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>LSEF Replicated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF Replicated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 3452172928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>Replication Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF Replication Counter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 2641295548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>LSEF Sent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF Sent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1719074570 - Field 3008528728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3402269235">
+          <source>Store No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LSEFProcessRequest - Field LSEF Store No. - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
